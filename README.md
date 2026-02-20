@@ -1,4 +1,3 @@
-````markdown
 # Ubuntu 24.04 Hardening Setup Script
 
 Dieses Repository enthält ein Installations- und Hardening-Skript für **Ubuntu 24.04**, das grundlegende Sicherheitsmaßnahmen automatisiert: Firewall (UFW), Fail2ban (sshd „aggressive“), SSH-Härtung (Key-only), Systemupdates und optional automatische Sicherheitsupdates inkl. möglichem Reboot um 04:00.
@@ -292,5 +291,3 @@ sudo ./setup-ubuntu24-hardening.sh
 Du kannst das Skript frei für eigene Server verwenden. Prüfe es vor produktivem Einsatz und passe es an deine Infrastruktur (zusätzliche Ports, andere SSH-User-Policies, Fail2ban-Tuning) an.
 
 ```
-```
-
