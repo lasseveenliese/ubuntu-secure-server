@@ -67,7 +67,7 @@ Zusätzlich setzt das Skript die Firewall strikt auf **nur 22/80/443 eingehend**
    ```bash
    chmod +x setup-ubuntu24-hardening.sh
    sudo ./setup-ubuntu24-hardening.sh
-```
+   ```
 
 Während des Laufs wirst du am Ende gefragt, ob automatische Updates aktiviert werden sollen.
 
