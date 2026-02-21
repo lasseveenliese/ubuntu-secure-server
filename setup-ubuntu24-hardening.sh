@@ -63,7 +63,7 @@ fi
 # Konfig schreiben (über conf.d statt sshd_config direkt)
 cat > "${SSHD_HARDEN_FILE}" <<'EOF'
 # Managed by hardening script
-UsePAM yes
+UsePAM no
 
 PubkeyAuthentication yes
 AuthenticationMethods publickey
