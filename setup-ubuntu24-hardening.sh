@@ -37,7 +37,7 @@ ufw allow 443/tcp
 ufw limit 22/tcp
 ufw --force enable
 
-log "SSH härten: nur Key-Login, PAM aktiv"
+log "SSH härten: nur Key-Login, PAM deaktiviert (scanner-konform)"
 SSHD_HARDEN_FILE="/etc/ssh/sshd_config.d/99-hardening.conf"
 
 # Sicherheitsgurt: Nur Passwort-Login deaktivieren, wenn mindestens ein authorized_keys existiert
